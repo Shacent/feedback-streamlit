@@ -77,6 +77,9 @@ if uploaded_file is not None:
         if result.empty:
             st.warning(f"Tidak ada data untuk Matprak '{selected_matprak}'.")
         else:
+            st.subheader(f"Daftar Kelas dan Rata-rata Skor untuk Matprak '{selected_matprak}'")
+            st.dataframe(result, use_container_width=True)
+            
             st.subheader(f"Visualisasi Rata-rata Skor untuk Matprak '{selected_matprak}'")
 
             # Membuat visualisasi barplot
