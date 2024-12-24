@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Judul aplikasi
 st.title("Analisis Rata-rata Skor PJ Praktikum berdasarkan Matprak dan Kelas")
@@ -75,5 +77,29 @@ if uploaded_file is not None:
         if result.empty:
             st.warning(f"Tidak ada data untuk Matprak '{selected_matprak}'.")
         else:
-            st.subheader(f"Daftar Kelas dan Rata-rata Skor untuk Matprak '{selected_matprak}'")
-            st.dataframe(result, use_container_width=True)
+            st.subheader(f"Visualisasi Rata-rata Skor untuk Matprak '{selected_matprak}'")
+
+            # Membuat visualisasi barplot
+            result_sorted = result.sort_values(by="Average Score", ascending=False)
+            plt.figure(figsize=(10, 6))
+            sns.barplot(
+                data=result_sorted, 
+                x="Average Score", 
+                y="Kelas", 
+                palette="coolwarm"
+            )
+            plt.title(f"Rata-rata Skor untuk Matprak '{selected_matprak}'", fontsize=14)
+            plt.xlabel("Average Score", fontsize=12)
+            plt.ylabel("Kelas", fontsize=12)
+
+            # Menambahkan nilai di setiap bar
+            for index, value in enumerate(result_sorted["Average Score"]):
+                plt.text(
+                    value + 0.02, 
+                    index, 
+                    f"{value:.2f}", 
+                    color="black", 
+                    va="center"
+                )
+        
+            st.pyplot(plt)
