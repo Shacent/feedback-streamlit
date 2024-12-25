@@ -5,14 +5,6 @@
 
 ---
 
-## 📂 Daftar Isi
-1. [Pendahuluan](##pendahuluan)
-2. [Persiapan](##persiapan)
-3. [Proses Langkah-Langkah](##proses-langkah-langkah)
-4. [Disclaimer](##disclaimer)
-
----
-
 ## 📝 Pendahuluan
 **Tujuan:**  
 Tujuan adanya Automate Rating Feedback LabTI Procedure ini untuk memberikan panduan ke siapa saja yang ingin memerlukan insight perihal peforma lab secara cepat dan tanpa harus mengelola data lebih lanjut.
