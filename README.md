@@ -6,10 +6,10 @@
 ---
 
 ## 📂 Daftar Isi
-1. [Pendahuluan](#pendahuluan)
-2. [Persiapan](#persiapan)
-3. [Proses Langkah-Langkah](#proses-langkah-langkah)
-4. [Disclaimer](#disclaimer)
+1. [Pendahuluan](##pendahuluan)
+2. [Persiapan](##persiapan)
+3. [Proses Langkah-Langkah](##proses-langkah-langkah)
+4. [Disclaimer](##disclaimer)
 
 ---
 
