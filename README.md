@@ -9,8 +9,7 @@
 1. [Pendahuluan](#pendahuluan)
 2. [Persiapan](#persiapan)
 3. [Proses Langkah-Langkah](#proses-langkah-langkah)
-4. [Penyelesaian](#penyelesaian)
-5. [Lampiran dan Catatan](#lampiran-dan-catatan)
+4. [Disclaimer](#disclaimer)
 
 ---
 
@@ -41,72 +40,82 @@ Automate Feedback from VALID dalam memberikan hasil score rata-rata setiap kelas
 
 ![Langkah 1](https://github.com/Shacent/feedback-streamlit/blob/main/image/Accounts.png?raw=true)
 
-### 1. Langkah 2: Kunjungi Feedback Form LabTI
+### 2. Langkah 2: Kunjungi Feedback Form LabTI
 Link Form: https://bit.ly/FeedbackLabTI
+
 ![Langkah 2](https://github.com/Shacent/feedback-streamlit/blob/main/image/2.png?raw=true)
 
-### 1. Langkah 3: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 3. Langkah 3: Buka Menu Edit Form
 
-**Gambar**
+![Langkah 3](https://github.com/Shacent/feedback-streamlit/blob/main/image/3.png?raw=true)
 
-### 1. Langkah 4: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 4. Langkah 4: Pilih Jawaban
 
-**Gambar**
+![Langkah 4](https://github.com/Shacent/feedback-streamlit/blob/main/image/4.png?raw=true)
 
-### 1. Langkah 5: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 5. Langkah 5: Buka Spreadsheet Form
 
-**Gambar**
+![Langkah 5](https://github.com/Shacent/feedback-streamlit/blob/main/image/5.png?raw=true)
 
-### 1. Langkah 6: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 6. Langkah 6: Download Data as CSV
+FYI: CSV adalah singkatan dari Comma Separated Value, yang merupakan format file untuk menyimpan data dalam bentuk teks biasa. File CSV menyimpan informasi yang dipisahkan oleh koma, bukan dalam kolom.
 
-**Gambar**
+![Langkah 6](https://github.com/Shacent/feedback-streamlit/blob/main/image/6.png?raw=true)
 
-### 1. Langkah 7: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 7. Langkah 7: Data Berhasil di-Download
 
-**Gambar**
+![Langkah 7](https://github.com/Shacent/feedback-streamlit/blob/main/image/7.png?raw=true)
 
-### 1. Langkah 8: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 8. Langkah 8: Membuka Automate Rating Feedback LabTI App
+Link: https://feedback-labti.streamlit.app/
 
-**Gambar**
+![Langkah 8](https://github.com/Shacent/feedback-streamlit/blob/main/image/8.png?raw=true)
 
-### 1. Langkah 9: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 9. Langkah 9: Upload Data
+Upload data csv yang sudah didownload tadi
 
-**Gambar**
+![Langkah 9](https://github.com/Shacent/feedback-streamlit/blob/main/image/9.png?raw=true)
 
-### 1. Langkah 10: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 10. Langkah 10: Pilih Data yang akan Diproses
 
-**Gambar**
+![Langkah 10](https://github.com/Shacent/feedback-streamlit/blob/main/image/10.png?raw=true)
 
-### 1. Langkah 11: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 11. Langkah 11: Rata-rata Score Berhasil Dibuat
+Jika form masih memiliki struktur yang sama, maka seharusnya akan muncul tabel yang sesuai dengan gambar di bawah ini
 
-**Gambar**
+![Langkah 11](https://github.com/Shacent/feedback-streamlit/blob/main/image/11.png?raw=true)
 
-### 1. Langkah 12: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 12. Langkah 12: Pilih Mata Praktikum yang Diinginkan
+Pilih mata praktikum yang akan dicari insightnya
 
-**Gambar**
+![Langkah 12](https://github.com/Shacent/feedback-streamlit/blob/main/image/12.png?raw=true)
 
-### 1. Langkah 13: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 13. Langkah 13: Contoh Disini Memilih IMK
 
-**Gambar**
+![Langkah 13](https://github.com/Shacent/feedback-streamlit/blob/main/image/13.png?raw=true)
 
-### 1. Langkah 14: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 14. Langkah 14: Insight Matprak Berhasil Terbuat
+Disini muncul nilai rata-rata dari masing-masing matprak yang dipilih per kelas yang diikuti
 
-**Gambar**
+![Langkah 14](https://github.com/Shacent/feedback-streamlit/blob/main/image/14.png?raw=true)
 
-### 1. Langkah 15: [Judul Langkah]
-[Deskripsi langkah pertama secara rinci. Tambahkan penjelasan tambahan jika diperlukan.]
+### 15. Langkah 15: Visualisasi Bar Plot
+Barplot membantu dalam melihat lebih jelas terhadap detail perbandingan antar kelas
 
-**Gambar**
+![Langkah 15](https://github.com/Shacent/feedback-streamlit/blob/main/image/15.png?raw=true)
 
+---
+
+## 📝 Disclaimer
+
+> **Perbandingan Menggunakan Manual**  
+> Hasil dari data yang diolah sudah dilakukan validasi menggunakan pengelolahan manual, sehingga apapun hasil yang ditampilkan pada app ini akan valid sesuai dengan prosedur yang dilakukan secara manual
+
+### Hasil Average Menggunakan App: 
+![app](https://github.com/Shacent/feedback-streamlit/blob/main/image/app.png?raw=true)
+
+### Hasil Average Menggunakan Manual: 
+![Manual](https://github.com/Shacent/feedback-streamlit/blob/main/image/manual.png?raw=true)
+
+### Kesimpulan
+Dari hasil tersebut terlihat bahwa terdapat kesamaan diantara data yang diolah menggunakan manual dengan app, sehingga app ini dapat digunakan dan dikembangkan lebih lanjut untuk keperluan mendatang.
