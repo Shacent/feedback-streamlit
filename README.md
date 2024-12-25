@@ -13,7 +13,7 @@ Tujuan adanya Automate Rating Feedback LabTI Procedure ini untuk memberikan pand
 Streamlit tidak akan bekerja jika form mengalami perubahan format kolom, sehingga akan diberikan update lebih lanjut jika mengalami perubahan form.
 
 **Hasil Akhir**  
-Automate Feedback from VALID dalam memberikan hasil score rata-rata setiap kelas dan mata praktikum yang dipilih sesuai dengan pengelolahan manual dan sudah di testing juga menggunakan data yang lain.
+Automate Feedback form VALID dalam memberikan hasil score rata-rata setiap kelas dan mata praktikum yang dipilih sesuai dengan pengelolahan manual dan sudah di testing juga menggunakan data yang lain.
 
 ---
 
