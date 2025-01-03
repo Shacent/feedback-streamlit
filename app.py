@@ -588,31 +588,23 @@ if uploaded_file is not None:
         if result_fasilitas.empty:
             st.warning(f"Tidak ada data untuk Matprak '{selected_matprak_fasilitas}'.")
         else:
-            st.subheader(f"Visualisasi Rata-rata Skor Fasilitas untuk Matprak {selected_matprak_fasilitas}")
-            
-            # Membuat visualisasi barplot
-            plt.figure(figsize=(10, 6))
-            sns.barplot(
-                data=result_fasilitas, 
-                x="Average Score Fasilitas", 
-                y="Matprak", 
-                palette="coolwarm"
-            )
-            plt.title(f"Rata-rata Skor Fasilitas untuk Matprak '{selected_matprak_fasilitas}'", fontsize=14)
-            plt.xlabel("Average Score Fasilitas", fontsize=12)
-            plt.ylabel("Matprak", fontsize=12)
-            
-            # Menambahkan nilai di setiap bar
-            for index, value in enumerate(result_fasilitas["Average Score Fasilitas"]):
-                plt.text(
-                    value + 0.02, 
-                    index, 
-                    f"{value:.2f}", 
-                    color="black", 
-                    va="center"
-                )
+            overall_average_score_asisten = result_fasilitas["Average Score Fasilitas"].mean()  # Menghitung rata-rata dari kolom
 
-            st.pyplot(plt)
+            # Menggunakan st.markdown untuk styling HTML dan CSS
+            st.markdown(
+                f"""
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 25vh; color: white;">
+                    <h1 style="margin-bottom: 5px; font-size: 2rem;">Fasilitas {selected_matprak_fasilitas} Average Score </h1>
+                    <div style="font-size: 2rem; font-weight: bold; background-color: #7289da; color: white; padding: 15px 30px; border-radius: 10px; box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);">
+                        {overall_average_score_asisten:.2f} / 5
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+            st.markdown("")
+            st.markdown("")
 
             # Komentar dan WordCloud untuk semua kelas pada Matprak yang dipilih
             st.subheader(f"Ragam Komentar untuk Fasilitas pada Matprak {selected_matprak_fasilitas}")
