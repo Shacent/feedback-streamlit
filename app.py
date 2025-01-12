@@ -9,6 +9,9 @@ from sqlalchemy import create_engine
 import nltk
 from nltk.corpus import stopwords
 
+# Mengunduh stopwords jika belum tersedia
+nltk.download('stopwords')
+
 # Import Data from Supabase
 SUPABASE_DATABASE_URL = (
     "postgresql://postgres.jpsxgdhvmdfgqbhvyhpo:Shacent.321@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
