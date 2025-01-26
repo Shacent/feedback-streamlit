@@ -14,7 +14,7 @@ nltk.download('stopwords')
 
 # Import Data from Supabase
 SUPABASE_DATABASE_URL = (
-    "postgresql://postgres.jpsxgdhvmdfgqbhvyhpo:Shacent.321@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
+    "postgresql://postgres.jpsxgdhvmdfgqbhvyhpo:Shacent.54321@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
 )
 
 engine = create_engine(SUPABASE_DATABASE_URL)
