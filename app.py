@@ -817,8 +817,8 @@ elif page == "Tentang Pembuat":
     ### Pembuat dan Kontributor
 
     **Pembuat**:  
-    - **Nama**: Shacent  
-    - **Email**: shacent@example.com  
+    - **Nama**: Muhammad Hauzan Dini Fakhri
+    - **Email**: hauzandini@gmail.com  
     - **LinkedIn**: [linkedin.com/in/muhammad-hauzan-dini-fakhri/](https://www.linkedin.com/in/muhammad-hauzan-dini-fakhri/)
     - **GitHub**: [Shacent](https://github.com/Shacent)  
 
