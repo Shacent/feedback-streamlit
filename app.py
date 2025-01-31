@@ -14,12 +14,13 @@ nltk.download('stopwords')
 
 # Import Data from Supabase
 SUPABASE_DATABASE_URL = (
-    "postgresql://postgres.jpsxgdhvmdfgqbhvyhpo:Shacent.54321@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+    "postgresql://postgres.jpsxgdhvmdfgqbhvyhpo:SayangLabti.123@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 )
 
 engine = create_engine(SUPABASE_DATABASE_URL)
 
 # Menambahkan styling kustom menggunakan Markdown dan HTML
+@st.cache_data
 def style_average_score_section():
     st.markdown("""
     <style>
@@ -51,6 +52,7 @@ def style_average_score_section():
     """, unsafe_allow_html=True)
 
 # Menampilkan rata-rata skor dengan styling
+@st.cache_data
 def display_average_score(category, selected_matprak, overall_average_score):
     st.markdown(f'''
     <div class="average-score-title">Skor Rata-rata {category} {selected_matprak} Semua Kelas</div>
@@ -110,10 +112,9 @@ elif page == "Tata Cara Pemakaian":
     st.title("Tata Cara Pemakaian")
     st.markdown("""
     **Langkah-langkah penggunaan aplikasi:**
-    1. **Unggah File**: Gunakan tombol 'Unggah file CSV' untuk mengunggah data mentah dalam format CSV.
-    2. **Navigasi Halaman**: Gunakan sidebar untuk berpindah antar halaman (Pendahuluan, Tata Cara, Score, dan Tentang Pembuat).
-    3. **Analisis Data**: Pilih matprak atau kelas tertentu untuk melihat skor dan komentar.
-    4. **Unduh Hasil**: Gunakan fitur bawaan untuk menyimpan hasil visualisasi.
+    1. **Navigasi Halaman**: Gunakan sidebar untuk berpindah antar halaman (Pendahuluan, Tata Cara, Score, dan Tentang Pembuat).
+    2. **Analisis Data**: Pilih matprak atau kelas tertentu untuk melihat skor PJ/Asisten/Materi/Fasilitas dan komentar praktikan.
+    3. **Unduh Hasil**: Gunakan fitur bawaan untuk menyimpan hasil table maupun visualisasi.
     """)
 elif page == "Score":
     # Judul aplikasi
